@@ -6,7 +6,7 @@ manager = Manager(app)
 
 @app.route('/')
 def index():
-    return '<h1>Welcome Weixuan!</h1>'
+    return '<h1>Welcome Weixuan! ...</h1>'
 
 if __name__ == '__main__':
     manager.run()
